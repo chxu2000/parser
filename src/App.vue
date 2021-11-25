@@ -443,7 +443,7 @@ export default {
               });
               continue;
             }
-            includeLines = textDecoderGBK.decode(msg.content).split("\r\n");
+            includeLines = textDecoderUTF8.decode(msg.content).split("\r\n");
             lineList.splice(i, 1, ...includeLines);
             // console.log(lineList);
             i--;
