@@ -946,7 +946,7 @@ export default {
       }
       this.stat = 0;
       this.resultRadio = "1";
-      this.sourceCode = textDecoderGBK.decode(msg.content);
+      this.sourceCode = textDecoderUTF8.decode(msg.content);
     });
     ipcRenderer.on("grammar-content", (e, msg) => {
       if (msg.errFlag) {
