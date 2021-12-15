@@ -187,7 +187,7 @@ import {
 // import func from "vue-editor-bridge";
 const { dialog } = require("electron").remote;
 const path = require("path");
-const textDecoderGBK = new TextDecoder("GBK");
+// const textDecoderGBK = new TextDecoder("GBK");
 const textDecoderUTF8 = new TextDecoder("UTF8");
 
 function deepCopy(obj) {
