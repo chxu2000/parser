@@ -51,7 +51,7 @@ function createMenu() {
         {
           label: 'Source Code (Github Repo)',
           click: () => {
-            shell.openExternal('https://github.com/Ted-0711/lex/')
+            shell.openExternal('https://github.com/Ted-0711/parser/')
           }
         },
         {
